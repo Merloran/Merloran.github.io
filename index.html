@@ -120,6 +120,7 @@ layout: portfolio
         <span class="skill-tag">3D Graphics Math</span>
         <span class="skill-tag">ECS Architecture</span>
         <span class="skill-tag">VR</span>
+        <span class="skill-tag">Mobile Games</span>
       </div>
     </div>
   </div>
@@ -164,7 +165,9 @@ layout: portfolio
 
     <div class="project-card">
       <div class="project-media">
-        <img src="/assets/img/projects/PathTracer.png" alt="Pathtracer render">
+        <video autoplay muted loop playsinline>
+          <source src="/assets/img/projects/PathTracer.mp4" type="video/mp4">
+        </video>
       </div>
       <div class="project-content">
         <div class="project-header">
@@ -282,6 +285,32 @@ layout: portfolio
 
     <div class="project-card">
       <div class="project-media">
+        <img src="/assets/img/projects/Rasterizer.png" alt="CPU Rasterizer render outputs">
+      </div>
+      <div class="project-content">
+        <div class="project-header">
+          <span class="project-title">CPU Rasterizer</span>
+        </div>
+        <div class="project-team">Solo project</div>
+        <p class="project-description">
+          Software rasterizer built entirely on the CPU without graphics APIs. Features a custom math library (vectors, matrices, transformations) written from scratch, implementing the full rendering pipeline: vertex processing, triangle rasterization, depth testing, and fragment shading. Outputs multiple visualizations including color, depth, normals, and UV coordinates.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">C++</span>
+          <span class="tech-tag">Custom Math Library</span>
+          <span class="tech-tag">Software Rendering</span>
+          <span class="tech-tag">CMake</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Merloran/Rasterizer" target="_blank" class="btn">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-media">
         <img src="/assets/img/projects/BubbleHunt.png" alt="Bubble Hunt game screenshot">
       </div>
       <div class="project-content">
@@ -301,6 +330,89 @@ layout: portfolio
         <div class="project-links">
           <a href="https://agaa3.itch.io/bubble-hunt" target="_blank" class="btn btn-primary">
             <i class="fas fa-gamepad"></i> Play Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-media">
+        <img src="/assets/img/projects/KillSteal.png" alt="Kill Steal game screenshot">
+      </div>
+      <div class="project-content">
+        <div class="project-header">
+          <span class="project-title">Kill Steal</span>
+          <span class="project-badge">Hackathon</span>
+        </div>
+        <div class="project-team">Team CenturySharks (2 members) - Hacknation Poland 2025</div>
+        <p class="project-description">
+          Fast-paced mobile game where pirates battle sea monsters. Only the pirate who lands the killing blow earns the fame and riches. Built in 24 hours during hackathon.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Unity</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">Mobile</span>
+          <span class="tech-tag">Android</span>
+        </div>
+        <div class="project-links">
+          <a href="https://merloran.itch.io/kill-steal" target="_blank" class="btn btn-primary">
+            <i class="fas fa-gamepad"></i> Play Demo
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-media">
+        <video autoplay muted loop playsinline>
+          <source src="/assets/img/projects/ConcurrentBalls.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="project-content">
+        <div class="project-header">
+          <span class="project-title">Ball Simulation</span>
+        </div>
+        <div class="project-team">Team of 2 - University project</div>
+        <p class="project-description">
+          Concurrent ball simulation demonstrating multithreading and synchronization in C#. Built with MVVM architecture, featuring thread-safe collision detection and real-time physics updates across multiple threads.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">MVVM</span>
+          <span class="tech-tag">Multithreading</span>
+          <span class="tech-tag">WPF</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/ludzienamoscie/Programowanie_Wspolbiezne_MC08" target="_blank" class="btn">
+            <i class="fab fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-media">
+        <video autoplay muted loop playsinline>
+          <source src="/assets/img/projects/Sudoku.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="project-content">
+        <div class="project-header">
+          <span class="project-title">Sudoku</span>
+        </div>
+        <div class="project-team">Team of 2 - University project</div>
+        <p class="project-description">
+          Sudoku puzzle game built in Java with Maven. Features Model-View architecture for clean separation of game logic and UI, with a JavaFX-based interface.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">JavaFX</span>
+          <span class="tech-tag">Maven</span>
+          <span class="tech-tag">MVC</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Merloran/Sudoku" target="_blank" class="btn">
+            <i class="fab fa-github"></i> Source Code
           </a>
         </div>
       </div>
